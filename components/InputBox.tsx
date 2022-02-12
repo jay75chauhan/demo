@@ -22,7 +22,7 @@ function InputBox() {
         <form className="flex flex-1  ">
           <input
             ref={inputRef}
-            className="h-9 flex-grow rounded-full bg-gray-50 px-2 py-1 text-sm shadow-md focus:outline-none sm:h-12 sm:px-5 sm:text-lg"
+            className="h-9 flex-grow rounded-full bg-white px-2 py-1 text-sm shadow focus:outline-none sm:h-12 sm:px-5 sm:text-lg"
             type="text"
             placeholder={`what would you like to share ?`}
           />

@@ -17,7 +17,7 @@ function Contact({ src, name }: any) {
       <button className="rounded-lg bg-red-400 px-2 py-1 text-white">
         Add
       </button>
-      <div className="absolute bottom-2 left-7 h-3 w-3 animate-pulse rounded-full bg-green-400"></div>
+      <div className="absolute bottom-2 left-2 h-3 w-3 animate-pulse rounded-full bg-red-400"></div>
     </div>
   )
 }

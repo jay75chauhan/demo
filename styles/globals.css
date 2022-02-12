@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply hidden h-10 w-10 cursor-pointer rounded-full bg-gray-200 p-2 text-gray-700 hover:bg-gray-300 xl:inline-flex;
+  }
+  .inoutIcon {
+    @apply flex flex-grow cursor-pointer items-center justify-center space-x-1 rounded-xl p-2 hover:bg-red-50;
+  }
+}

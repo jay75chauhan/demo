@@ -1,10 +1,11 @@
+import React from 'react'
 import Head from 'next/head'
 import Feed from '../components/Feed'
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
 import Widgets from '../components/Widgets'
 
-export default function Home() {
+function user() {
   return (
     <div className=" sc min-h-screen bg-gray-100 ">
       <Head>
@@ -17,7 +18,7 @@ export default function Home() {
         {/* sidebar */}
         <Sidebar />
         {/* feed */}
-        <Feed />
+
         <Widgets />
 
         {/* widgets */}
@@ -25,3 +26,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default user
